@@ -9,5 +9,9 @@ public class Main {
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
+        long startTime;
+        long endTime;
+        long elapsedTime;
+
     }
 }
