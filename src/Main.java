@@ -18,13 +18,21 @@ public class Main {
             arrayList.add(i);
 
         }
+
+//        *************LinkedList*******************
+
         startTime = System.nanoTime();
-
+        linkedList.get(0);
         endTime = System.nanoTime();
-
         elapsedTime = endTime - startTime;
-
         System.out.println("LinkedList:\t" + elapsedTime + " ns");
+
+        //        *************ArrayList*******************
+        startTime = System.nanoTime();
+        arrayList.get(0);
+        endTime = System.nanoTime();
+        elapsedTime = endTime - startTime;
+        System.out.println("ArrayList:\t" + elapsedTime + " ns");
 
     }
 }
