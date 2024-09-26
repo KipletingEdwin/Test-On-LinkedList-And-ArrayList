@@ -20,5 +20,11 @@ public class Main {
         }
         startTime = System.nanoTime();
 
+        endTime = System.nanoTime();
+
+        elapsedTime = endTime - startTime;
+
+        System.out.println("LinkedList:\t" + elapsedTime + " ns");
+
     }
 }
